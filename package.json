@@ -1,0 +1,23 @@
+{
+  "name": "experiments",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node sample/timeStampsExperimet.js"
+  },
+  "dependencies": {
+    "wTools": "",
+    "wstringer": "",
+    "wstringsextra": "",
+    "wConsequence": "",
+    "wCopyable": "",
+    "wPath": "",
+    "wexectools": "",
+    "wfieldsstack": "",
+    "wRegexpObject": "",
+    "fs-extra": ""
+  },
+  "author": "",
+  "license": "MIT"
+}
