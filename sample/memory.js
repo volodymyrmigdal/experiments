@@ -1,11 +1,14 @@
 
-if( typeof module !== 'undefined' )
-require( 'wFiles' )
+// if( typeof module !== 'undefined' )
+// require( 'wFiles' )
 
-var _ = wTools;
+// var _ = wTools;
 
-_.fileProvider.fileWrite( _.path.join( __dirname, 'file' ), 'abc' );
+// _.fileProvider.fileWrite( _.path.join( __dirname, 'file' ), 'abc' );
 
-var a = [];
-while( 1 ) a.push( new Date() );
+// var a = [];
+// while( 1 ) a.push( new Date() );
+
+process.exit( 134 )
+
 

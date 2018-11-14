@@ -13,6 +13,8 @@ var _ = wTools;
 
 // console.log( process.env.A )
 
-var stat = _.fileProvider.fileStat( _.path.join( __dirname, 'file' ) );
+// var stat = _.fileProvider.fileStat( _.path.join( __dirname, 'file' ) );
 
-console.log( stat );
+// console.log( stat );
+
+process.exit( 134 )
