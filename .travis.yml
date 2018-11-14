@@ -1,11 +1,14 @@
 sudo: false
 language: node_js
-os: windows
+os:
+  - linux
+  - osx
 
-node_js : 10.13.0
+before_install:
+  - nvm install 10.13.0
 
 script:
-  - node --expose-gc --stack-trace-limit=999 --max_old_space_size=17054896128 sample/memory.js
+  - node --expose-gc --stack-trace-limit=999 --max_old_space_size=1024 sample/memory.js
 
 #cache:
 #  directories:
