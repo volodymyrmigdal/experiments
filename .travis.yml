@@ -9,6 +9,7 @@ before_install:
 
 script:
   - node --expose-gc --stack-trace-limit=999 --max_old_space_size=5000 sample/memory.js
+  - node sample/timeStampsExperimet.js
 
 #cache:
 #  directories:
