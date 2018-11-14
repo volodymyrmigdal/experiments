@@ -16,5 +16,3 @@ var _ = wTools;
 // var stat = _.fileProvider.fileStat( _.path.join( __dirname, 'file' ) );
 
 // console.log( stat );
-
-process.exit( 134 )
