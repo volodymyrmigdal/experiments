@@ -1,3 +1,2 @@
-// var a = [];
-// while( 1 ) a.push( new Date() );
-process.exit( 1 )
+var a = [];
+while( 1 ) a.push( new Date() );
